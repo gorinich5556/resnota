@@ -80,6 +80,10 @@ if (window.innerWidth < 1300){
     sliderWach = 2
     console.log(innerWidth)
 }
+if (window.innerWidth < 680){
+    sliderWach = 1
+    console.log(innerWidth)
+}
 
 new Swiper('.product__items', {
     speed: 400,
