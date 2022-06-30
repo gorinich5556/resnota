@@ -77,12 +77,12 @@ buttonMenuNovetlly.addEventListener('click', function(){
 var sliderWach = 4
 
 function scrollCatalogAdaptive(){
-    if (window.innerWidth < 680){
-        sliderWach = 1
+    if (window.innerWidth < 1300 || window.innerWidth > 680){
+        sliderWach = 2
         console.log(innerWidth)
     }
-    if (window.innerWidth < 1300){
-        sliderWach = 2
+    if (window.innerWidth < 680){
+        sliderWach = 1
         console.log(innerWidth)
     }
 }
