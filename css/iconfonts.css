@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'iconre';
+  src:  url('../fonts/iconre.eot?y6t4tn');
+  src:  url('../fonts/iconre.eot?y6t4tn#iefix') format('embedded-opentype'),
+    url('../../fonts/iconre.ttf?y6t4tn') format('truetype'),
+    url('../fonts/iconre.woff?y6t4tn') format('woff'),
+    url('../fonts/iconre.svg?y6t4tn#iconre') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change ../fonts */
+  font-family: 'iconre' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Arrow-7:before {
+  content: "\e910";
+  color: #0e2149;
+}
+.icon-Vector:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-arrow-drop-down:before {
+  content: "\e913";
+  color: #fff;
+}
+.icon-burger:before {
+  content: "\e912";
+  color: #fff;
+}
+.icon-arrow:before {
+  content: "\e900";
+}
+.icon-basket:before {
+  content: "\e901";
+}
+.icon-beer:before {
+  content: "\e902";
+}
+.icon-dairy_products:before {
+  content: "\e903";
+}
+.icon-delete_icon:before {
+  content: "\e904";
+}
+.icon-done_icon:before {
+  content: "\e905";
+}
+.icon-favorite:before {
+  content: "\e906";
+}
+.icon-fruits:before {
+  content: "\e907";
+}
+.icon-honey:before {
+  content: "\e908";
+}
+.icon-meat_food:before {
+  content: "\e909";
+}
+.icon-novelty:before {
+  content: "\e90a";
+}
+.icon-percent:before {
+  content: "\e90b";
+}
+.icon-plus:before {
+  content: "\e90c";
+}
+.icon-seafood:before {
+  content: "\e90d";
+}
+.icon-snowfake:before {
+  content: "\e90e";
+}
+.icon-vegetables:before {
+  content: "\e90f";
+}
