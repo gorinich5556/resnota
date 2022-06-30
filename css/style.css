@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -86,7 +86,7 @@ h2 {
 @font-face {
   font-family: gotham;
   src: url("../fonts/Gotham Pro Medium.eot");
-  src: local("☺"), url("../fonts/Gotham Pro Medium.woff") format("woff"), url("../fonts/Gotham Pro Medium.ttf") format("truetype"), url("/../fonts/Gotham Pro Medium.svg") format("svg");
+  src: local("☺"), url("../fonts/Gotham Pro Medium.woff") format("woff"), url("../fonts/Gotham Pro Medium.ttf") format("truetype"), url("../fonts/Gotham Pro Medium.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -1140,6 +1140,32 @@ h2 {
   }
   .product__menu-items {
     margin-bottom: 27px;
+  }
+  .product__items {
+    max-width: 250px;
+  }
+  .swiper-button-nexti {
+    left: 144px;
+  }
+  .swiper-button-previ {
+    left: -144px;
+  }
+  .button-blue {
+    padding: 11px 13px;
+  }
+  .button-yello {
+    padding: 11px 13px;
+  }
+  .product-item__seving {
+    margin-left: 1px;
+  }
+  .product-item {
+    padding: 0 12px;
+  }
+  .product-item__image {
+    left: 0px;
+    width: 242px;
+    height: 193px;
   }
 }
 /*# sourceMappingURL=style.css.map */
