@@ -79,11 +79,11 @@ var sliderWach = 4
 function scrollCatalogAdaptive(){
     if (window.innerWidth < 1300 && window.innerWidth > 680){
         sliderWach = 2
-        console.log(innerWidth)
+        console.log(innerWidth + 'px адаптив 1300')
     }
     if (window.innerWidth < 680){
         sliderWach = 1
-        console.log(innerWidth)
+        console.log(innerWidth + 'px адаптив 680')
     }
 }
 scrollCatalogAdaptive()
