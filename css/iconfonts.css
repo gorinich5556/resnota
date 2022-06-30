@@ -2,7 +2,7 @@
   font-family: 'iconre';
   src:  url('../fonts/iconre.eot?y6t4tn');
   src:  url('../fonts/iconre.eot?y6t4tn#iefix') format('embedded-opentype'),
-    url('../../fonts/iconre.ttf?y6t4tn') format('truetype'),
+    url('../../fonts/iconre.ttf?y6t4tn') format('ttf'),
     url('../fonts/iconre.woff?y6t4tn') format('woff'),
     url('../fonts/iconre.svg?y6t4tn#iconre') format('svg');
   font-weight: normal;
