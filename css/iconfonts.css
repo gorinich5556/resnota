@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'iconre';
-  src:  url('../fonts/iconre.eot?y6t4tn');
-  src:  url('../fonts/iconre.eot?y6t4tn#iefix') format('embedded-opentype'),
-    url('../../fonts/iconre.ttf?y6t4tn') format('ttf'),
-    url('../fonts/iconre.woff?y6t4tn') format('woff'),
-    url('../fonts/iconre.svg?y6t4tn#iconre') format('svg');
+  src:  url('../fonts/iconre.eot?d6eqil');
+  src:  url('../fonts/iconre.eot?d6eqil#iefix') format('embedded-opentype'),
+    url('../fonts/iconre.ttf?d6eqil') format('truetype'),
+    url('../fonts/iconre.woff?d6eqil') format('woff'),
+    url('../fonts/iconre.svg?d6eqil#iconre') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change ../fonts */
+  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'iconre' !important;
   speak: never;
   font-style: normal;
@@ -33,13 +33,14 @@
   content: "\e911";
   color: #fff;
 }
+.icon-Star-2:before {
+  content: "\e914";
+}
 .icon-arrow-drop-down:before {
   content: "\e913";
-  color: #fff;
 }
 .icon-burger:before {
   content: "\e912";
-  color: #fff;
 }
 .icon-arrow:before {
   content: "\e900";
