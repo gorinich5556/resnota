@@ -1,5 +1,6 @@
 'use strict'
 
+
 /*-------------------------FILTER CATALOG----------------------------------------*/
 const filterCatalog = document.querySelector('.main__catalog-menu')
 console.log('Hello world!')
