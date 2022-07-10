@@ -45,14 +45,6 @@ h2 {
   font-family: gotham;
 }
 
-.description {
-  font-size: 18px;
-  line-height: 130%;
-  font-family: Roboto;
-  color: #cfcfcf;
-  font-family: 'Roboto';
-}
-
 .main-header__description {
   margin-top: 32px;
   max-width: 321px;
@@ -435,16 +427,6 @@ h2 {
   font-family: 'Roboto';
 }
 
-.product-item {
-  width: 285px;
-  height: 490px;
-  border: 1px solid #EFF2F4;
-  padding: 0px 20px;
-  position: relative;
-  font-family: 'Roboto';
-  padding-bottom: 20px;
-}
-
 .product__menu-items {
   list-style-type: none;
   display: -webkit-box;
@@ -454,172 +436,6 @@ h2 {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 49px;
-}
-
-.product-item__state {
-  background: #EB7D3F;
-  display: inline-block;
-  height: 24px;
-  width: 42px;
-  position: relative;
-}
-
-.product-item__state::before {
-  content: '';
-  position: absolute;
-  background-color: #EB7D3F;
-  height: 6px;
-  width: 23px;
-  -webkit-transform: rotate(15deg);
-  transform: rotate(15deg);
-  left: 0px;
-  top: 21px;
-}
-
-.product-item__state::after {
-  content: '';
-  position: absolute;
-  background-color: #EB7D3F;
-  height: 6px;
-  width: 22px;
-  -webkit-transform: rotate(-15deg);
-  transform: rotate(-15deg);
-  left: 19px;
-  top: 21px;
-}
-
-.product-item__state-text {
-  font-family: gotham;
-  font-size: 13px;
-  line-height: 130%;
-  letter-spacing: -0.125em;
-  color: #FFFFFF;
-  margin-top: 5px;
-}
-
-.product-item__favorite {
-  display: inline-block;
-  color: #B8C1CA;
-  position: relative;
-  top: 10px;
-  margin-left: 179px;
-  cursor: pointer;
-}
-
-.product-item__image {
-  position: absolute;
-  top: 30px;
-  left: 18px;
-}
-
-.product-item-title {
-  margin-top: 209px;
-  font-family: gotham;
-  font-size: 20px;
-  line-height: 24px;
-  color: #0E2149;
-}
-
-.product-item-text {
-  margin-top: 14px;
-  width: 100%;
-}
-
-.product-item__price {
-  font-family: 'Abhaya Libre';
-  margin-top: 11px;
-  font-size: 24px;
-  line-height: 28px;
-  color: #0E2149;
-}
-
-.product-item__discount {
-  margin-top: 6px;
-}
-
-.product-item__no-price {
-  font-family: gotham;
-  font-size: 18px;
-  line-height: 21px;
-  -webkit-text-decoration-line: line-through;
-  text-decoration-line: line-through;
-  color: #D5AF86;
-  display: inline-block;
-}
-
-.product-item__seving {
-  display: inline-block;
-  margin-left: 27px;
-  max-width: 164px;
-  height: 24px;
-}
-
-.product-item__seving-percent {
-  height: 100%;
-  padding: 3px 7px;
-  background: #D5AF86;
-  color: white;
-  font-family: 'Abhaya Libre';
-  font-size: 13px;
-  line-height: 130%;
-  display: inline-block;
-}
-
-.product-item__seving-money {
-  max-width: 122px;
-  padding: 3px 8px;
-  font-size: 13px;
-  line-height: 130%;
-  color: #717171;
-  border: 1px solid #EFF2F4;
-  border-left: none;
-  display: inline-block;
-}
-
-.product-item__buttons {
-  margin-top: 22px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.button-blue {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 11px 26px;
-  font-size: 18px;
-  line-height: 130%;
-  color: #FFFFFF;
-  font-family: gotham;
-  background: #0E2149;
-}
-
-.button-yello {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 11px 24px;
-  font-size: 18px;
-  line-height: 130%;
-  color: #FFFFFF;
-  font-family: gotham;
-  background: #D5AF86;
 }
 
 .swiper-button-previ {
@@ -694,26 +510,6 @@ h2 {
   }
   .swiper-button-previ {
     left: -144px;
-  }
-  .button-blue {
-    padding: 11px 13px;
-  }
-  .button-yello {
-    padding: 11px 13px;
-  }
-  .product-item__seving {
-    margin-left: 1px;
-  }
-  .product-item {
-    padding: 0 12px;
-  }
-  .product-item__image {
-    left: 0px;
-    width: 242px;
-    height: 193px;
-  }
-  .product-item__favorite {
-    margin-left: 157px;
   }
 }
 
