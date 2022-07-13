@@ -290,17 +290,17 @@ filteLink.forEach(item =>
     })
 )
 /*---------------------------------MENU CHANGE-----------------------------------------*/
-const catalogMenuItem = document.querySelectorAll('.catalog-menu__item')
+const catalogMenuItem = document.querySelectorAll('.selection-menu__item')
 
 
 catalogMenuItem.forEach(item =>{
     var catalogMenuItemState = false
     item.addEventListener('click', function(){
         if(catalogMenuItemState == false){
-            item.classList.add('catalog-menu__item_active')
+            item.classList.add('selection-menu__item_active')
             catalogMenuItemState = true
         }else{
-            item.classList.remove('catalog-menu__item_active')
+            item.classList.remove('selection-menu__item_active')
             catalogMenuItemState = false
         }
     })

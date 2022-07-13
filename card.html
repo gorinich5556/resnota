@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/iconfonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+    <title>Вёрстка</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__header-top header__container">
+                <div class="header__header-top-content">
+                    <div class="header-top__left-part">
+                        <img src="./img/imgcontent/logo.png" alt="logo" class="header-top__logo">
+                        <img src="./img/imgcontent/logo_text.jpg" alt="logo_text" class="header-top__logo-text">
+                        <div class="header-top__description soft-text">Колбасы и мясные<br> деликатесы</div>
+                    </div>
+                    <div class="header-top__right-part">
+                        <div class="header-top__right-part-content">
+                            <div class="header-top__favorite">
+                                <div class="icon-favorite icon-favorite-settings"></div>
+                            </div>
+                            <div class="header-top__basket">
+                                <div class="header-top__basket-icon icon-basket"></div>
+                            </div>
+                            <div class="header-top__info">
+                                <div class="header-top__goods">Товаров: <span class="text-black">3</span></div>
+                                <div class="header-top__budget">6 540₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__body header-body">
+                <div class="header-body__container">
+                    <div class="header-body__content">
+                        <nav class="header-body__navigation">
+                            <a href="#" class="header-body__link">О ресноте</a>
+                            <a href="#" class="header-body__link">Каталог</a>
+                            <a href="#" class="header-body__link">Наши магазины</a>
+                            <a href="#" class="header-body__link">Контакты</a>
+                        </nav>
+                        <span class="header-body__burger"></span>
+                        <div class="header-body__search">
+                            <form action="#" class="header-body__search-form">
+                                <input class="header-body__search-input" type="text" placeholder="Поиск по сайту">
+                                <div class="header-body__search-icon icon-search"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-body__container-burger-menu">
+                    <div class="header-body__burger-menu burger-menu">
+                        <ul class="burger-menu__content">
+                            <li class="burger-menu__item-container"><a class="burger-menu__item" href="#">о ресноте</a></li>
+                            <div class="burger-menu__content"></div>
+                            <li class="burger-menu__item-container burger-menu__item-container-tab burger-menu__item-catalog"><a class="burger-menu__item" href="#">каталог</a><div class="burger-menu__item-container-icon icon-arrow-drop-down"></div></li>
+                            <div class="burger-menu__content">
+                                <ul class="burger-menu__catalog catalog">
+                                    <li class="catalog__item-container catalog__item-first"><div class="catalog__item-icon icon-favorite"></div><a href="#" class="catalog__item bold-gotham">Хиты продаж</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-percent"></div><a href="#" class="catalog__item">Скидки</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon con icon-novelty"></div><a href="#" class="catalog__item">Новинки</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-meat_food"></div><a href="#" class="catalog__item bold-gotham">Колбасные и мясные изделия</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-dairy_products"></div><a href="#" class="catalog__item">Молочные продукты</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-seafood"></div><a href="#" class="catalog__item">Морепродукты</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-beer"></div><a href="#" class="catalog__item">Пиво</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-snowfake"></div><a href="#" class="catalog__item">Замороженные продукты</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-honey"></div><a href="#" class="catalog__item">Мед</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-vegetables"></div><a href="#" class="catalog__item">Свежие овощи</a></li>
+                                    <div class="separator-container"class="separator"><div class="separator"></div></div>
+                                    <li class="catalog__item-container catalog__item-end"><div class="catalog__item-icon icon-fruits"></div><a href="#" class="catalog__item">Свежие фрукты</a></li>
+                                </ul>
+                            </div>
+                            <li class="burger-menu__item-container"><a class="burger-menu__item" href="#">наши магазины</a></li>
+                            <div class="burger-menu__content"></div>
+                            <li class="burger-menu__item-container"><a class="burger-menu__item" href="#">контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main__container">
+                <div class="main__sourse menu-sourse">
+                    <div class="menu-sourse__link">
+                        <div class="menu-sourse__title">Главная</div>
+                        <div class="menu-sourse__decotative"></div>
+                    </div>
+                    <div class="menu-sourse__link">
+                        <div class="menu-sourse__title">Каталог</div>
+                        <div class="menu-sourse__decotative"></div>
+                    </div>
+                    <div class="menu-sourse__link">
+                        <div class="menu-sourse__title">Колбасные и мясные иделия </div>
+                        <div class="menu-sourse__decotative"></div>
+                    </div>
+                    <div class="menu-sourse__link">
+                        <div class="menu-sourse__title">Деликатесы</div>
+                        <div class="menu-sourse__decotative"></div>
+                    </div>
+                    <div class="menu-sourse__link">
+                        <div class="menu-sourse__title">Говядина</div>
+                        <div class="menu-sourse__decotative"></div>
+                    </div>
+                    <div class="menu-sourse__link">
+                        <div class="menu-sourse__title">Миланская вяленая колбаса</div>
+                        <div class="menu-sourse__decotative"></div>
+                    </div>
+                </div>
+                <div class="main__title title bk-text">Миланская вяленая колбаса</div>
+                <div class="main__product">
+                    <div class="main__card-product card-product">
+                        <div class="card-product__row">
+                            <div class="card-product__images">
+                                <div class="product-item__state card-product___state">
+                                    <div class="product-item__state-text">Акция</div>
+                                </div>
+                                <div class="card-product__favorite"><div class="icon-favorite"></div></div>
+                                <div class="swiper sw">
+                                    <div class="swiper-wrapper">
+                                      <div class="swiper-slide">
+                                        <img class="swiper__image" src="./img/imgcontent/kolbasa_4.png" alt="image">
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <img class="swiper__image" src="./img/imgcontent/kolbasa_6.jpg" alt="image">
+                                      </div>
+                                      <div class="swiper-slide">
+                                        <img class="swiper__image" src="./img/imgcontent/kolbasa_2.png" alt="image">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <img src="./img/iconfonts/arrow.svg" id="swiper-button-prev" class="swiper-button-prev">
+                                  <img src="./img/iconfonts/arrow.svg" id="swiper-button-next" class="swiper-button-next">
+                                  <div class="swiper-pagination">
+                                </div>
+                            </div>
+                            <div class="card-product__info product-info">
+                                <div class="product-info__articul">Артикул ks_001</div>
+                                <div class="product-info__articul-name">Колбасы вяленые и сырокопченые</div>
+                                <div class="product-info__storage">
+                                    <div class="product-info__storage-title">Хранение</div>
+                                    <div class="product-info__storage-text">В вакуумной упаковке 120 суток. После вскрытия употребить в течение 30 суток или до окончания срока годности.</div>
+                                </div>
+                                <div class="product-info__compound">
+                                    <div class="product-info__compound-title">Состав</div>
+                                    <div class="product-info__compound-text">Свинина, смесь посолочная (соль, нитрит натрия), коньяк, натуральные специи, сахар.</div>
+                                </div>
+                                <div class="product-info__nutritional-value nutritional-value">
+                                    <div class="nutritional-value__title">Пищевая ценность</div>
+                                    <div class="nutritional-value__components">
+                                        <div class="nutritional-value__component">
+                                            <div class="nutritional-value__component-name">Белок</div>
+                                            <div class="nutritional-value__decorative"></div>
+                                            <div class="nutritional-value__component-count">12 г</div>
+                                        </div>
+                                        <div class="nutritional-value__component">
+                                            <div class="nutritional-value__component-name">Жиры</div>
+                                            <div class="nutritional-value__decorative"></div>
+                                            <div class="nutritional-value__component-count">20г</div>
+                                        </div>
+                                        <div class="nutritional-value__component">
+                                            <div class="nutritional-value__component-name">Калорийность</div>
+                                            <div class="nutritional-value__decorative"></div>
+                                            <div class="nutritional-value__component-count">228 ккал</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-info__buy product-buy">
+                                    <div class="product-buy__price">
+                                        <div class="product-buy__result-price">500 ₽</div>
+                                        <div class="product-buy__original-price">660 ₽</div>
+                                        <div class="product-buy__discount">
+                                            <div class="product-buy__percent">-15%</div>
+                                            <div class="product-buy__economy">Экономия 160 ₽</div>
+                                        </div>
+                                    </div>
+                                    <div class="product-buy__buttons">
+                                        <div class="product-buy__count-buy">
+                                            <div class="product-buy__minus">-</div>
+                                            <div class="product-buy__count">1</div>
+                                            <div class="product-buy__plus">+</div>
+                                        </div>
+                                        <div class="poduct-buy__button">
+                                            <div class="product-buy__button-buy button-blue">Купить</div>
+                                            <div class="product-buy__button-in-one-click button-yello">В 1 клик</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-product__other">
+                            <div class="card-product__tabs product-tabs">
+                                <button class="product-tabs__deliveri product-tabs__tab">Доставка</button>
+                                <button class="product-tabs__payment product-tabs__tab">Оплата</button>
+                                <button class="product-tabs__guarantees product-tabs__tab">Наши гарантии</button>
+                            </div>
+                            <div class="card-product__tab-info card-product__tab-info_deliveri tab-info">
+                                <div class="tab-info__row">
+                                    <div class="tab-info__left-part tab-info__part">
+                                        <div class="tab-info__title">Самовывоз</div>
+                                        <div class="tab-info__text">
+                                            <div class="tab-info__link">1. Магазин – г. Москва ул. Осенний бульвар д. 5к1 <span>Время работы: </span> 8:30 - 22:00</div>
+                                            <div class="tab-info__link">2. Производство – г. Москва ул. Крылатская, д. 37<span>Время работы: </span>круглосуточно</div>
+                                        </div>
+                                        <div class="tab-info__price">Бесплатно</div>
+                                    </div>
+                                    <div class="tab-info__right-part tab-info__part">
+                                        <div class="tab-info__title">Доставка курьером</div>
+                                        <div class="tab-info__text">
+                                            <div class="tab-info__link">Осуществляется на следующий день по Москве в пределах МКАД <span>Либо в любой указанный Вами позже день</span></div>
+                                        </div>
+                                        <div class="tab-info__price">от 200 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-product__tab-info card-product__tab-info_payment tab-info">
+                                <div class="tab-info__left-part">
+                                    <div class="tab-info__title">Здесь ничего нету</div>
+                                    <div class="tab-info__text">
+                                        <div class="tab-info__link">Это Оплата</div>
+                                        <div class="tab-info__link"></div>
+                                    </div>
+                                    <div class="tab-info__price">Бесплатно</div>
+                                </div>
+                            </div>
+                            <div class="card-product__tab-info card-product__tab-info_guarantees tab-info">
+                                <div class="tab-info__left-part">
+                                    <div class="tab-info__title">Здесь тоже ничего нету</div>
+                                    <div class="tab-info__text">
+                                        <div class="tab-info__link">Это Гарантии</div>
+                                        <div class="tab-info__link">Это тоже Гарантиия</div>
+                                    </div>
+                                    <div class="tab-info__price">Бесплатно</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__recomend recomend">
+                        <div class="recomend__title title bk-text">Рекомендуем</div>
+                        <div class="recomend__products">
+                            <div class="recomend__row">
+                                <div class="recomend__product">
+                                    <div class="product__item product-item">
+                                
+                                        <div class="product-item__state">
+                                            <div class="product-item__state-text">Скидка</div>
+                                        </div>
+                                        <div class="product-item__favorite icon-favorite"></div>
+                                        <div class="product-item__image-hover">
+                                            <div class="product-item__hover-background"></div>
+                                            <div class="product-item__hover-ellipse">
+                                                <img src="./img/imgcontent/eye.png" alt="eye" class="product-item__hover-icon">
+                                                <div class="product-item__hover-text">Быстрый просмотр</div>
+                                            </div>
+                                        </div>
+                                        <img src="./img/imgcontent/meat.png" alt="image" class="product-item__image">
+                                        <div class="product-item-title">Говядина, кусок с/к</div>
+                                        <div class="product-item-text">Свинина, смесь посолочная (соль, нитрит натрия), коньяк, натуральные специи, сахар.</div>
+                                        <div class="product-item__price">500 ₽</div>
+                                        <div class="product-item__discount">
+                                            <div class="product-item__no-price">660 ₽</div>
+                                            <div class="product-item__seving">
+                                                <div class="product-item__seving-percent">-15%</div>
+                                                <div class="product-item__seving-money">Экономия 160 ₽</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__buttons">
+                                            <div class="product-item__buy button-blue">Купить</div>
+                                            <div class="product-item__in-one-click button-yello">В 1 клик</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recomend__product">
+                                    <div class="product__item product-item">
+                                
+                                        <div class="product-item__state">
+                                            <div class="product-item__state-text">Скидка</div>
+                                        </div>
+                                        <div class="product-item__favorite icon-favorite"></div>
+                                        <div class="product-item__image-hover">
+                                            <div class="product-item__hover-background"></div>
+                                            <div class="product-item__hover-ellipse">
+                                                <img src="./img/imgcontent/eye.png" alt="eye" class="product-item__hover-icon">
+                                                <div class="product-item__hover-text">Быстрый просмотр</div>
+                                            </div>
+                                        </div>
+                                        <img src="./img/imgcontent/meat.png" alt="image" class="product-item__image">
+                                        <div class="product-item-title">Говядина, кусок с/к</div>
+                                        <div class="product-item-text">Свинина, смесь посолочная (соль, нитрит натрия), коньяк, натуральные специи, сахар.</div>
+                                        <div class="product-item__price">500 ₽</div>
+                                        <div class="product-item__discount">
+                                            <div class="product-item__no-price">660 ₽</div>
+                                            <div class="product-item__seving">
+                                                <div class="product-item__seving-percent">-15%</div>
+                                                <div class="product-item__seving-money">Экономия 160 ₽</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__buttons">
+                                            <div class="product-item__buy button-blue">Купить</div>
+                                            <div class="product-item__in-one-click button-yello">В 1 клик</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recomend__product">
+                                    <div class="product__item product-item">
+                                
+                                        <div class="product-item__state">
+                                            <div class="product-item__state-text">Скидка</div>
+                                        </div>
+                                        <div class="product-item__favorite icon-favorite"></div>
+                                        <div class="product-item__image-hover">
+                                            <div class="product-item__hover-background"></div>
+                                            <div class="product-item__hover-ellipse">
+                                                <img src="./img/imgcontent/eye.png" alt="eye" class="product-item__hover-icon">
+                                                <div class="product-item__hover-text">Быстрый просмотр</div>
+                                            </div>
+                                        </div>
+                                        <img src="./img/imgcontent/meat.png" alt="image" class="product-item__image">
+                                        <div class="product-item-title">Говядина, кусок с/к</div>
+                                        <div class="product-item-text">Свинина, смесь посолочная (соль, нитрит натрия), коньяк, натуральные специи, сахар.</div>
+                                        <div class="product-item__price">500 ₽</div>
+                                        <div class="product-item__discount">
+                                            <div class="product-item__no-price">660 ₽</div>
+                                            <div class="product-item__seving">
+                                                <div class="product-item__seving-percent">-15%</div>
+                                                <div class="product-item__seving-money">Экономия 160 ₽</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__buttons">
+                                            <div class="product-item__buy button-blue">Купить</div>
+                                            <div class="product-item__in-one-click button-yello">В 1 клик</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recomend__product">
+                                    <div class="product__item product-item">
+                                
+                                        <div class="product-item__state">
+                                            <div class="product-item__state-text">Скидка</div>
+                                        </div>
+                                        <div class="product-item__favorite icon-favorite"></div>
+                                        <div class="product-item__image-hover">
+                                            <div class="product-item__hover-background"></div>
+                                            <div class="product-item__hover-ellipse">
+                                                <img src="./img/imgcontent/eye.png" alt="eye" class="product-item__hover-icon">
+                                                <div class="product-item__hover-text">Быстрый просмотр</div>
+                                            </div>
+                                        </div>
+                                        <img src="./img/imgcontent/meat.png" alt="image" class="product-item__image">
+                                        <div class="product-item-title">Говядина, кусок с/к</div>
+                                        <div class="product-item-text">Свинина, смесь посолочная (соль, нитрит натрия), коньяк, натуральные специи, сахар.</div>
+                                        <div class="product-item__price">500 ₽</div>
+                                        <div class="product-item__discount">
+                                            <div class="product-item__no-price">660 ₽</div>
+                                            <div class="product-item__seving">
+                                                <div class="product-item__seving-percent">-15%</div>
+                                                <div class="product-item__seving-money">Экономия 160 ₽</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__buttons">
+                                            <div class="product-item__buy button-blue">Купить</div>
+                                            <div class="product-item__in-one-click button-yello">В 1 клик</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__stock">
+                        <div class="recomend__title title bk-text">Наши акции</div>
+                        <div class="recomend__products">
+                            <div class="recomend__row">
+                                <div class="recomend__product">
+                                    <div class="product__item product-item">
+                                
+                                        <div class="product-item__state">
+                                            <div class="product-item__state-text">Скидка</div>
+                                        </div>
+                                        <div class="product-item__favorite icon-favorite"></div>
+                                        <div class="product-item__image-hover">
+                                            <div class="product-item__hover-background"></div>
+                                            <div class="product-item__hover-ellipse">
+                                                <img src="./img/imgcontent/eye.png" alt="eye" class="product-item__hover-icon">
+                                                <div class="product-item__hover-text">Быстрый просмотр</div>
+                                            </div>
+                                        </div>
+                                        <img src="./img/imgcontent/meat.png" alt="image" class="product-item__image">
+                                        <div class="product-item-title">Говядина, кусок с/к</div>
+                                        <div class="product-item-text">Свинина, смесь посолочная (соль, нитрит натрия), коньяк, натуральные специи, сахар.</div>
+                                        <div class="product-item__price">500 ₽</div>
+                                        <div class="product-item__discount">
+                                            <div class="product-item__no-price">660 ₽</div>
+                                            <div class="product-item__seving">
+                                                <div class="product-item__seving-percent">-15%</div>
+                                                <div class="product-item__seving-money">Экономия 160 ₽</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__buttons">
+                                            <div class="product-item__buy button-blue">Купить</div>
+                                            <div class="product-item__in-one-click button-yello">В 1 клик</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recomend__product">
+                                    <div class="product__item product-item">
+                                
+                                        <div class="product-item__state">
+                                            <div class="product-item__state-text">Скидка</div>
+                                        </div>
+                                        <div class="product-item__favorite icon-favorite"></div>
+                                        <div class="product-item__image-hover">
+                                            <div class="product-item__hover-background"></div>
+                                            <div class="product-item__hover-ellipse">
+                                                <img src="./img/imgcontent/eye.png" alt="eye" class="product-item__hover-icon">
+                                                <div class="product-item__hover-text">Быстрый просмотр</div>
+                                            </div>
+                                        </div>
+                                        <img src="./img/imgcontent/meat.png" alt="image" class="product-item__image">
+                                        <div class="product-item-title">Говядина, кусок с/к</div>
+                                        <div class="product-item-text">Свинина, смесь посолочная (соль, нитрит натрия), коньяк, натуральные специи, сахар.</div>
+                                        <div class="product-item__price">500 ₽</div>
+                                        <div class="product-item__discount">
+                                            <div class="product-item__no-price">660 ₽</div>
+                                            <div class="product-item__seving">
+                                                <div class="product-item__seving-percent">-15%</div>
+                                                <div class="product-item__seving-money">Экономия 160 ₽</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__buttons">
+                                            <div class="product-item__buy button-blue">Купить</div>
+                                            <div class="product-item__in-one-click button-yello">В 1 клик</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recomend__product">
+                                    <div class="product__item product-item">
+                                
+                                        <div class="product-item__state">
+                                            <div class="product-item__state-text">Скидка</div>
+                                        </div>
+                                        <div class="product-item__favorite icon-favorite"></div>
+                                        <div class="product-item__image-hover">
+                                            <div class="product-item__hover-background"></div>
+                                            <div class="product-item__hover-ellipse">
+                                                <img src="./img/imgcontent/eye.png" alt="eye" class="product-item__hover-icon">
+                                                <div class="product-item__hover-text">Быстрый просмотр</div>
+                                            </div>
+                                        </div>
+                                        <img src="./img/imgcontent/meat.png" alt="image" class="product-item__image">
+                                        <div class="product-item-title">Говядина, кусок с/к</div>
+                                        <div class="product-item-text">Свинина, смесь посолочная (соль, нитрит натрия), коньяк, натуральные специи, сахар.</div>
+                                        <div class="product-item__price">500 ₽</div>
+                                        <div class="product-item__discount">
+                                            <div class="product-item__no-price">660 ₽</div>
+                                            <div class="product-item__seving">
+                                                <div class="product-item__seving-percent">-15%</div>
+                                                <div class="product-item__seving-money">Экономия 160 ₽</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__buttons">
+                                            <div class="product-item__buy button-blue">Купить</div>
+                                            <div class="product-item__in-one-click button-yello">В 1 клик</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recomend__product">
+                                    <div class="product__item product-item">
+                                
+                                        <div class="product-item__state">
+                                            <div class="product-item__state-text">Скидка</div>
+                                        </div>
+                                        <div class="product-item__favorite icon-favorite"></div>
+                                        <div class="product-item__image-hover">
+                                            <div class="product-item__hover-background"></div>
+                                            <div class="product-item__hover-ellipse">
+                                                <img src="./img/imgcontent/eye.png" alt="eye" class="product-item__hover-icon">
+                                                <div class="product-item__hover-text">Быстрый просмотр</div>
+                                            </div>
+                                        </div>
+                                        <img src="./img/imgcontent/meat.png" alt="image" class="product-item__image">
+                                        <div class="product-item-title">Говядина, кусок с/к</div>
+                                        <div class="product-item-text">Свинина, смесь посолочная (соль, нитрит натрия), коньяк, натуральные специи, сахар.</div>
+                                        <div class="product-item__price">500 ₽</div>
+                                        <div class="product-item__discount">
+                                            <div class="product-item__no-price">660 ₽</div>
+                                            <div class="product-item__seving">
+                                                <div class="product-item__seving-percent">-15%</div>
+                                                <div class="product-item__seving-money">Экономия 160 ₽</div>
+                                            </div>
+                                        </div>
+                                        <div class="product-item__buttons">
+                                            <div class="product-item__buy button-blue">Купить</div>
+                                            <div class="product-item__in-one-click button-yello">В 1 клик</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <section class="footer__top">
+                <div class="footer__container">
+                    <div class="footer__information footer-info">
+                        <div class="footer-info__title title wh">Есть вопросы?</div>
+                        <div class="footer-info__description description">Оставьте свои данные и наш менеджер свяжется с вами в ближайшее время.</div>
+                    </div>
+                    <img src="./img/imgcontent/logo.png" alt="logo" class="footer__logo">
+                    <form action="#" class="footer__form footer-form">
+                        <div class="footer-form__personal-info">
+                            <input type="text" placeholder="Ваше имя" class="footer-form__name input-name">
+                            <input type="text" placeholder="Телефон/E-mail" class="footer-form__email input-name">
+                        </div>
+                        <textarea placeholder="Комментарий" class="footer-form__comment"></textarea>
+                        <label class="footer-form__agreement-public checkbox">
+                            <input type="checkbox" name="agreement" value="i-publick" class="footer-form__input-agreement-public checkbox__checkbox">
+                            <div class="footer-form__tick-agreement-public checkbox__tick"></div>
+                            <div class="footer-form__text-agreement-public checkbox__text">Даю согласие на рассылку рекламных материалов, акций и скидок</div>
+                        </label>
+                        <label class="footer-form__agreement-personal checkbox">
+                            <input type="checkbox" name="agreement" value="i-personal" class="footer-form__input-agreement-personal checkbox__checkbox">
+                            <div class="footer-form__tick-agreement-personal checkbox__tick"></div>
+                            <div class="footer-form__text-agreement-personal checkbox__text">Даю согласие на обработку моих персональных данных</div>
+                        </label>
+                        <button class="footer-form__send">Отправить</button>
+                    </form>
+                </div>
+            </section>
+            <section class="footer__body">
+                <div class="footer__container">
+                    <div class="footer__product-title">Продукция</div>
+                    <div class="footer__products">
+                        <div class="footer__product footer-product">
+                            <div class="footer-product__item">Колбасные и мясные изделия</div>
+                            <div class="footer-product__item">Молочные продукты</div>
+                        </div>
+                        <div class="footer__product">
+                            <div class="footer-product__item">Морепродукты</div>
+                            <div class="footer-product__item">Пиво</div>
+                        </div>
+                        <div class="footer__product">
+                            <div class="footer-product__item">Замороженные продукты</div>
+                            <div class="footer-product__item">Мед</div>
+                        </div>
+                        <div class="footer__product">
+                            <div class="footer-product__item">Свежие овощи</div>
+                            <div class="footer-product__item">Свежие фрукты</div>
+                        </div>
+                    </div>
+                    <div class="footer__etc footer-etc">
+                        <div class="footer-etc__item">О компании</div>
+                        <div class="footer-etc__item">Наши магазины</div>
+                        <div class="footer-etc__item">Контакты</div>
+                    </div>
+                    <div class="footer__separator"></div>
+                </div>
+            </section>
+            <section class="footer__botom">
+                <div class="footer__container">
+                    <div class="footer__content-botom">
+                        <div class="footer__adress">2016–2021 © ООО «ПД Реснота»</div>
+                        <div class="footer__adress_800px">2016–2021<br>© ООО «ПД Реснота»</div>
+                        <div class="footer__contacts">
+                            <img src="./img/imgcontent/Facebook.png" alt="Facebook" class="footer__contact">
+                            <img src="./img/imgcontent/VK.png" alt="VK" class="footer__contact">
+                            <img src="./img/imgcontent/Instagram.png" alt="Inst" class="footer__contact">
+                        </div>
+                        <div class="footer__prodvigate">Разработка и продвижение сайта — <span class="footer__prodvigate_uppercase">SEOabsolut</span></div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./js/general.js"></script>
+    <script src="./js/card.js"></script>
+    
+</body>
+</html>

@@ -3,34 +3,6 @@ main = document.querySelector('.main')
 headerTop = document.querySelector('.header__header-top-content')
 
 
-// BURGER
-
-burger = document.querySelector('.header-body__burger');
-burgerMenu = document.querySelector('.header-body__container-burger-menu')
-burgerState = false
-
-headerTop.addEventListener('click', function(){
-    if (burgerState == true){
-        burgerMenu.style.display = 'none'
-    }
-})
-
-main.addEventListener('click', function(){
-    if (burgerState == true){
-        burgerMenu.style.display = 'none'
-    }
-})
-
-burger.addEventListener('click', function(){
-    if (burgerState == false){
-        burgerMenu.style.display = 'block'
-        burgerState = true
-    } else{
-        burgerMenu.style.display = 'none'
-        burgerState = false
-        
-    }
-})
 
 // DROP DOWN FOR CATALOG
 
