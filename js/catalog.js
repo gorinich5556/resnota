@@ -289,22 +289,6 @@ filteLink.forEach(item =>
         }
     })
 )
-/*---------------------------------MENU CHANGE-----------------------------------------*/
-const catalogMenuItem = document.querySelectorAll('.selection-menu__item')
-
-
-catalogMenuItem.forEach(item =>{
-    var catalogMenuItemState = false
-    item.addEventListener('click', function(){
-        if(catalogMenuItemState == false){
-            item.classList.add('selection-menu__item_active')
-            catalogMenuItemState = true
-        }else{
-            item.classList.remove('selection-menu__item_active')
-            catalogMenuItemState = false
-        }
-    })
-})
 /*-------------------------------------------LAZY LOADING---------------------------------------------------------------*/
 const lazyButton = document.querySelector('.catalog-product__lazy-loading-button')
 const MoreLoadingBlock = document.querySelector('.catalog-product__products')  

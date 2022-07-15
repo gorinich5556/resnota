@@ -17,10 +17,11 @@ favoriteIcon.forEach(item => {
     })
 })
 // HEADER BURGER
-
-burger = document.querySelector('.header-body__burger');
-burgerMenu = document.querySelector('.header-body__container-burger-menu')
-burgerState = false
+const main = document.querySelector('.main')
+const headerTop = document.querySelector('.header__header-top-content') 
+const burger = document.querySelector('.header-body__burger');
+const burgerMenu = document.querySelector('.header-body__container-burger-menu')
+var burgerState = false
 
 headerTop.addEventListener('click', function(){
     if (burgerState == true){
@@ -42,5 +43,39 @@ burger.addEventListener('click', function(){
         burgerMenu.style.display = 'none'
         burgerState = false
         
+    }
+})
+
+/*---------------------------------MENU CHANGE-----------------------------------------*/
+const catalogMenuItem = document.querySelectorAll('.selection-menu__item')
+
+
+catalogMenuItem.forEach(item =>{
+    var catalogMenuItemState = false
+    item.addEventListener('click', function(){
+        if(catalogMenuItemState == false){
+            item.classList.add('selection-menu__item_active')
+            catalogMenuItemState = true
+        }else{
+            item.classList.remove('selection-menu__item_active')
+            catalogMenuItemState = false
+        }
+    })
+})
+// DROP DOWN FOR CATALOG
+
+catalogButton = document.querySelector('.burger-menu__item-catalog')
+catalogState = false
+catalog = document.querySelector('.catalog')
+
+catalog.style.display = 'none'
+
+catalogButton.addEventListener('click', function(){
+    if (catalogState == false){
+        catalog.style.display = 'block'
+        catalogState = true
+    } else{
+        catalog.style.display = 'none'
+        catalogState = false
     }
 })

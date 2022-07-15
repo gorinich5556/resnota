@@ -4,24 +4,6 @@ headerTop = document.querySelector('.header__header-top-content')
 
 
 
-// DROP DOWN FOR CATALOG
-
-catalogButton = document.querySelector('.burger-menu__item-catalog')
-catalogState = false
-catalog = document.querySelector('.catalog')
-
-catalogButton.addEventListener('click', function(){
-    if (catalogState == false){
-        catalog.style.display = 'block'
-        catalogState = true
-    } else{
-        catalog.style.display = 'none'
-        catalogState = false
-    }
-})
-
-
-
 // SWIPER KATALOG
 
 var sliderWach = 4

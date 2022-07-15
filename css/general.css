@@ -98,6 +98,56 @@ h1, h2, h3, h4, h5, h6 {
   color: red;
 }
 
+.back {
+  margin-top: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.back__back-icon {
+  position: relative;
+  margin-right: 20px;
+  width: 27px;
+  height: 2px;
+  cursor: pointer;
+  background-color: #0E2149;
+}
+
+.back__back-icon::before, .back__back-icon::after {
+  content: '';
+  width: 2px;
+  height: 10px;
+  background-color: #0E2149;
+  position: absolute;
+}
+
+.back__back-icon::before {
+  -webkit-transform: rotate(42deg);
+          transform: rotate(42deg);
+  left: 2px;
+  top: -6px;
+}
+
+.back__back-icon::after {
+  -webkit-transform: rotate(131deg);
+          transform: rotate(131deg);
+  left: 2px;
+  top: 0px;
+  height: 8px;
+}
+
+.back__back-button {
+  font-size: 22px;
+  line-height: 130%;
+  color: #0E2149;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .description {
   font-size: 18px;
   line-height: 130%;
@@ -129,6 +179,10 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   left: -8px;
   margin-top: 17px;
+}
+
+.main {
+  font-family: Roboto;
 }
 
 .selection-menu__item_active {
@@ -178,14 +232,18 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 
-.checkbox__tick::before {
+.checkbox__tick::before, .checkbox__tick::after {
   content: '';
-  width: 15px;
-  height: 15px;
   background: #0E2149;
   position: absolute;
-  top: 18%;
-  left: 18%;
+  opacity: 0;
+}
+
+.checkbox__tick::before {
+  width: 15px;
+  top: 4px;
+  left: 4px;
+  height: 14px;
   opacity: 0;
 }
 
@@ -1055,7 +1113,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   top: 10px;
   margin-left: 179px;
-  z-index: 100;
+  z-index: 5;
   cursor: pointer;
 }
 

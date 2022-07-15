@@ -1,0 +1,119 @@
+.main__sourse{
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+
+.main__det-blog-main {
+    margin-top: 18px;
+    position: relative;
+    height: 390px;
+}
+.det-blog-main {
+}
+.det-blog-main__container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.det-blog__text {
+    font-size: 20px;
+    line-height: 130%;
+    color: #111111;
+}
+.det-blog-main__background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    min-width: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main__det-blog {
+    margin-top: 68px;
+}
+.det-blog {
+}
+.det-blog-main__text{
+    max-width: 648px;
+    color: white;
+    font-size: 20px;
+    line-height: 130%;
+}
+.det-blog-main__text span:not(:last-child){
+    display: block;
+    margin-bottom: 26px;
+}
+.det-blog__subtitle {
+    margin-top: 40px;
+}
+.det-blog__list {
+    margin-bottom: 20px;
+}
+.det-blog__item {
+    font-size: 18px;
+    line-height: 25px;
+    color: #111111;
+    display: flex;
+    align-items: center;
+}
+.det-blog__item:not(:last-child){
+    margin-bottom: 10px;
+}
+.det-blog__item::before{
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #0E2149;
+    display: inline-block;
+}
+.det-blog__card {
+    display: flex;
+}
+.det-blog__image {
+    max-width: 570px;
+    height: 246px;
+    flex: 1 1 auto;
+    object-fit: cover;
+}
+.det-blog__card-content {
+    padding-left: 40px;
+    padding-right: 10px;
+}
+.det-blog__fat-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #0E2149;
+}
+.det-blog__card-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #111111;
+    margin-top: 26px;
+}
+.det-blog__back {
+}
+@media(max-width: 1216px){
+    .det-blog__card{
+        flex-direction: column;
+    }
+    .det-blog__card-content{
+        padding: 0;
+        margin-top: 30px;
+        max-width: 570px;
+    }
+}
+@media(max-width: 660px){
+    .det-blog-main__text{
+        font-size: 15px;
+        max-width: 289px;
+    }
+    .det-blog__subtitle {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,160 @@
+.main__sourse {
+  margin-top: 30px;
+}
+
+.main__title {
+  margin-top: 14px;
+}
+
+.main__history-company {
+  margin-top: 45px;
+  padding-left: 75px;
+  padding-right: 19px;
+}
+
+.history__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.history__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.history__item {
+  margin-bottom: 80px;
+}
+
+.history__item:not(:last-child)::before {
+  content: url("../img/iconfonts/Arrow_3.svg");
+  position: relative;
+  top: 106px;
+  left: 182px;
+}
+
+.history__time {
+  width: 199px;
+  text-align: end;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: right;
+  color: #D5AF86;
+  margin-right: 46px;
+}
+
+.history__illustration {
+  width: 130px;
+  height: 130px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  margin-right: 46px;
+}
+
+.history__text {
+  font-size: 18px;
+  line-height: 130%;
+  color: #111111;
+}
+
+.history__decor {
+  display: none;
+}
+
+@media (max-width: 1116px) {
+  .history__item:not(:last-child)::before {
+    left: 165px;
+  }
+}
+
+@media (max-width: 994px) {
+  .main__history-company {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .history__illustration {
+    position: absolute;
+    left: 108px;
+  }
+  .history__text {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 500px;
+            flex: 1 1 500px;
+  }
+  .history__time {
+    max-width: 70px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    margin-right: 188px;
+  }
+  .history__item {
+    min-height: 130px;
+  }
+}
+
+@media (max-width: 745px) {
+  .history__illustration {
+    display: none;
+  }
+  .history__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .history__item {
+    margin-bottom: 20px;
+  }
+  .history__text {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    max-width: 100%;
+    text-align: center;
+  }
+  .history__time {
+    margin: 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    max-width: 100%;
+    text-align: center;
+  }
+  .history__item:not(:last-child)::before {
+    left: 7px;
+    top: 170px;
+    content: url("../img/iconfonts/Arrow_4.svg");
+    display: none;
+  }
+  .history__item:last-child .history__decor {
+    display: none;
+  }
+  .history__decor {
+    display: block;
+    margin-top: 13px;
+  }
+}
+/*# sourceMappingURL=history.css.map */

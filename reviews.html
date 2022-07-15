@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/reviews.css">
+    <link rel="stylesheet" href="./css/iconfonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+    <title>resnota - Наши отзывы</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__header-top header__container">
+                <div class="header__header-top-content">
+                    <div class="header-top__left-part">
+                        <img src="./img/imgcontent/logo.png" alt="logo" class="header-top__logo">
+                        <img src="./img/imgcontent/logo_text.jpg" alt="logo_text" class="header-top__logo-text">
+                        <div class="header-top__description soft-text">Колбасы и мясные<br> деликатесы</div>
+                    </div>
+                    <div class="header-top__right-part">
+                        <div class="header-top__right-part-content">
+                            <div class="header-top__favorite">
+                                <div class="icon-favorite icon-favorite-settings"></div>
+                            </div>
+                            <div class="header-top__basket">
+                                <div class="header-top__basket-icon icon-basket"></div>
+                            </div>
+                            <div class="header-top__info">
+                                <div class="header-top__goods">Товаров: <span class="text-black">3</span></div>
+                                <div class="header-top__budget">6 540₽</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__body header-body">
+                <div class="header-body__container">
+                    <div class="header-body__content">
+                        <nav class="header-body__navigation">
+                            <a href="#" class="header-body__link">О ресноте</a>
+                            <a href="#" class="header-body__link">Каталог</a>
+                            <a href="#" class="header-body__link">Наши магазины</a>
+                            <a href="#" class="header-body__link">Контакты</a>
+                        </nav>
+                        <span class="header-body__burger"></span>
+                        <div class="header-body__search">
+                            <form action="#" class="header-body__search-form">
+                                <input class="header-body__search-input" type="text" placeholder="Поиск по сайту">
+                                <div class="header-body__search-icon icon-search"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-body__container-burger-menu">
+                    <div class="header-body__burger-menu burger-menu">
+                        <ul class="burger-menu__content">
+                            <li class="burger-menu__item-container"><a class="burger-menu__item" href="#">о ресноте</a></li>
+                            <div class="burger-menu__content"></div>
+                            <li class="burger-menu__item-container burger-menu__item-container-tab burger-menu__item-catalog"><a class="burger-menu__item" href="#">каталог</a><div class="burger-menu__item-container-icon icon-arrow-drop-down"></div></li>
+                            <div class="burger-menu__content">
+                                <ul class="burger-menu__catalog catalog">
+                                    <li class="catalog__item-container catalog__item-first"><div class="catalog__item-icon icon-favorite"></div><a href="#" class="catalog__item bold-gotham">Хиты продаж</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-percent"></div><a href="#" class="catalog__item">Скидки</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon con icon-novelty"></div><a href="#" class="catalog__item">Новинки</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-meat_food"></div><a href="#" class="catalog__item bold-gotham">Колбасные и мясные изделия</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-dairy_products"></div><a href="#" class="catalog__item">Молочные продукты</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-seafood"></div><a href="#" class="catalog__item">Морепродукты</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-beer"></div><a href="#" class="catalog__item">Пиво</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-snowfake"></div><a href="#" class="catalog__item">Замороженные продукты</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-honey"></div><a href="#" class="catalog__item">Мед</a></li>
+                                    <div class="separator-container"><div class="separator"></div></div>
+                                    <li class="catalog__item-container"><div class="catalog__item-icon icon-vegetables"></div><a href="#" class="catalog__item">Свежие овощи</a></li>
+                                    <div class="separator-container"class="separator"><div class="separator"></div></div>
+                                    <li class="catalog__item-container catalog__item-end"><div class="catalog__item-icon icon-fruits"></div><a href="#" class="catalog__item">Свежие фрукты</a></li>
+                                </ul>
+                            </div>
+                            <li class="burger-menu__item-container"><a class="burger-menu__item" href="#">наши магазины</a></li>
+                            <div class="burger-menu__content"></div>
+                            <li class="burger-menu__item-container"><a class="burger-menu__item" href="#">контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__container">
+                <div class="main__sourse menu-sourse">
+                    <div class="menu-sourse__link">
+                        <div class="menu-sourse__title">Главная</div>
+                        <div class="menu-sourse__decotative"></div>
+                    </div>
+                    <div class="menu-sourse__link">
+                        <div class="menu-sourse__title">Отзывы</div>
+                        <div class="menu-sourse__decotative"></div>
+                    </div>
+                </div>
+                <div class="main__title title bk-text">Отзывы</div>
+                <div class="main__reviews reviews">
+                    <div class="reviews__row">
+                        <div class="reviews__link">
+                            <div class="reviews__item review">
+                                <img src="./img/imgcontent/email_9.png" alt="photo" class="review__photo">
+                                <div class="review__text">Благодарственное письмо ООО «Благодарочка»</div>
+                            </div>
+                        </div>
+                        <div class="reviews__link">
+                            <div class="reviews__item review">
+                                <img src="./img/imgcontent/email_8.png" alt="photo" class="review__photo">
+                                <div class="review__text">Благодарственное письмо ООО «Благодарочка»</div>
+                            </div>
+                        </div>
+                        <div class="reviews__link">
+                            <div class="reviews__item review">
+                                <img src="./img/imgcontent/email_7.png" alt="photo" class="review__photo">
+                                <div class="review__text">Благодарственное письмо ООО «Благодарочка»</div>
+                            </div>
+                        </div>
+                        <div class="reviews__link">
+                            <div class="reviews__item review">
+                                <img src="./img/imgcontent/email_5.png" alt="photo" class="review__photo">
+                                <div class="review__text">Благодарственное письмо ООО «Благодарочка»</div>
+                            </div>
+                        </div>
+                        <div class="reviews__link">
+                            <div class="reviews__item review">
+                                <img src="./img/imgcontent/email_4.png" alt="photo" class="review__photo">
+                                <div class="review__text">Благодарственное письмо ООО «Благодарочка»</div>
+                            </div>
+                        </div>
+                        <div class="reviews__link">
+                            <div class="reviews__item review">
+                                <img src="./img/imgcontent/email_3.png" alt="photo" class="review__photo">
+                                <div class="review__text">Благодарственное письмо ООО «Благодарочка»</div>
+                            </div>
+                        </div>
+                        <div class="reviews__link">
+                            <div class="reviews__item review">
+                                <img src="./img/imgcontent/email_2.png" alt="photo" class="review__photo">
+                                <div class="review__text">Благодарственное письмо ООО «Благодарочка»</div>
+                            </div>
+                        </div>
+                        <div class="reviews__link">
+                            <div class="reviews__item review">
+                                <img src="./img/imgcontent/email_1.png" alt="photo" class="review__photo">
+                                <div class="review__text">Благодарственное письмо ООО «Благодарочка»</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <section class="footer__top">
+                <div class="footer__container">
+                    <div class="footer__information footer-info">
+                        <div class="footer-info__title title wh">Есть вопросы?</div>
+                        <div class="footer-info__description description">Оставьте свои данные и наш менеджер свяжется с вами в ближайшее время.</div>
+                    </div>
+                    <img src="./img/imgcontent/logo.png" alt="logo" class="footer__logo">
+                    <form action="#" class="footer__form footer-form">
+                        <div class="footer-form__personal-info">
+                            <input type="text" placeholder="Ваше имя" class="footer-form__name input-name">
+                            <input type="text" placeholder="Телефон/E-mail" class="footer-form__email input-name">
+                        </div>
+                        <textarea placeholder="Комментарий" class="footer-form__comment"></textarea>
+                        <label class="footer-form__agreement-public checkbox">
+                            <input type="checkbox" name="agreement" value="i-publick" class="footer-form__input-agreement-public checkbox__checkbox">
+                            <div class="footer-form__tick-agreement-public checkbox__tick"></div>
+                            <div class="footer-form__text-agreement-public checkbox__text">Даю согласие на рассылку рекламных материалов, акций и скидок</div>
+                        </label>
+                        <label class="footer-form__agreement-personal checkbox">
+                            <input type="checkbox" name="agreement" value="i-personal" class="footer-form__input-agreement-personal checkbox__checkbox">
+                            <div class="footer-form__tick-agreement-personal checkbox__tick"></div>
+                            <div class="footer-form__text-agreement-personal checkbox__text">Даю согласие на обработку моих персональных данных</div>
+                        </label>
+                        <button class="footer-form__send">Отправить</button>
+                    </form>
+                </div>
+            </section>
+            <section class="footer__body">
+                <div class="footer__container">
+                    <div class="footer__product-title">Продукция</div>
+                    <div class="footer__products">
+                        <div class="footer__product footer-product">
+                            <div class="footer-product__item">Колбасные и мясные изделия</div>
+                            <div class="footer-product__item">Молочные продукты</div>
+                        </div>
+                        <div class="footer__product">
+                            <div class="footer-product__item">Морепродукты</div>
+                            <div class="footer-product__item">Пиво</div>
+                        </div>
+                        <div class="footer__product">
+                            <div class="footer-product__item">Замороженные продукты</div>
+                            <div class="footer-product__item">Мед</div>
+                        </div>
+                        <div class="footer__product">
+                            <div class="footer-product__item">Свежие овощи</div>
+                            <div class="footer-product__item">Свежие фрукты</div>
+                        </div>
+                    </div>
+                    <div class="footer__etc footer-etc">
+                        <div class="footer-etc__item">О компании</div>
+                        <div class="footer-etc__item">Наши магазины</div>
+                        <div class="footer-etc__item">Контакты</div>
+                    </div>
+                    <div class="footer__separator"></div>
+                </div>
+            </section>
+            <section class="footer__botom">
+                <div class="footer__container">
+                    <div class="footer__content-botom">
+                        <div class="footer__adress">2016–2021 © ООО «ПД Реснота»</div>
+                        <div class="footer__adress_800px">2016–2021<br>© ООО «ПД Реснота»</div>
+                        <div class="footer__contacts">
+                            <img src="./img/imgcontent/Facebook.png" alt="Facebook" class="footer__contact">
+                            <img src="./img/imgcontent/VK.png" alt="VK" class="footer__contact">
+                            <img src="./img/imgcontent/Instagram.png" alt="Inst" class="footer__contact">
+                        </div>
+                        <div class="footer__prodvigate">Разработка и продвижение сайта — <span class="footer__prodvigate_uppercase">SEOabsolut</span></div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+
+    <script src="./js/general.js"></script>
+</body>
+</html>

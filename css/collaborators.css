@@ -1,0 +1,56 @@
+.main__sourse {
+  margin-top: 30px;
+  margin-bottom: 14px;
+}
+
+.main__collaborators {
+  margin-top: 28px;
+}
+
+.collaborators__row {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px -10px;
+}
+
+.collaborator {
+  max-width: 285px;
+  padding: 7px;
+  min-height: 430px;
+  border: 1px solid #EFF2F4;
+}
+
+.collaborators__link {
+  padding: 0px 10px;
+  padding-bottom: 10px;
+}
+
+.collaborator__photo {
+  width: 270px;
+  height: 280px;
+}
+
+.collaborator__name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 18px;
+  margin-left: 13px;
+  color: #0E2149;
+}
+
+.collaborator__name span {
+  display: block;
+}
+
+.collaborator__function {
+  margin-left: 13px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 130%;
+  color: #111111;
+}
+/*# sourceMappingURL=collaborators.css.map */
